@@ -18,7 +18,7 @@ class PokePC(BaseModel):
 # index/landing
 @app.get('/') 
 def index():
-    return {'key':'value'}
+    return "Welcome to Pokemon PC"
     
 
 # shows all pokemon in PC
